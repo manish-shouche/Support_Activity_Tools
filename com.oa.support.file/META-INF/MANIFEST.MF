@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: File
+Bundle-SymbolicName: com.oa.support.file;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.oa.support.file.Activator
+Bundle-Vendor: OA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.8.1",
+ org.eclipse.ui.ide;bundle-version="3.8.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: com.jcraft.jsch;version="0.1.46"
